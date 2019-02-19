@@ -1,0 +1,7 @@
+<div class="news-title">This Is A News Title</div>
+<div class="news-heading">This Is A News Heading</div><br>
+This is body text that will be used in any and all news stories.
+<ul>
+	<li>This is a list entry.</li>
+</ul>
+<img src="assets/images/dashtranslogo.png"></img> This is an image.

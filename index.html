@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="scripts/dashtrans_style.css">
+        <title>DashTrans | Home</title>
+        <style>
+            /*Desktop*/
+            #default-image{
+                display: block;
+                margin: auto;
+                width: 34%;
+                height: auto;
+            }
+            #what_are_we_heading{
+                background-color: #0000FF;
+                margin: 8px;
+                clear: right;
+            }
+            #what_are_we_story{
+                margin: 8px;
+            }
+            #news_heading{
+                background-color: #FF0000;
+                margin: 8px;
+            }
+            #news > div{
+                background-color: #FFFFFF;
+                border: 1px solid #FF0000;
+                display: block;
+                margin: 8px;
+                padding: 8px;
+            }
+            #news > button{
+                width: 25%;
+                height: auto;
+                float: right;
+            }
+            .news-entries{
+                padding: 3px;
+            }
+            .news-entries > img{
+                width: 33.5%;
+                height: auto;
+            }
+            #default-news{
+                text-align: center;
+            }
+            #default-news-text{
+                padding: 8px;
+            }
+            @-webkit-keyframes fade {
+                from {opacity: 0}
+                to {opacity: 1}
+            }
+            @keyframes fade {
+                from {opacity: 0}
+                to {opacity: 1}
+            }
+            .slidesToBeShown{
+                animation-duration: 5s;
+                animation-name: fade;
+                position: relative;
+                width: 59%;
+                height: auto;
+            }
+            .dashImages{
+                width: 59%;
+                height: auto;
+            }
+            @media only screen and (max-width: 1079px) and (min-width: 427px){
+                #default-image{
+                    width: 65%;
+                    height: auto;
+                }
+                .slidesToBeShown{
+                    width: 80%;
+                    height: auto;
+                }
+                .dashImages{
+                    width: 80%;
+                    height: auto;
+                }
+            }
+            /*Phone*/
+            @media only screen and (max-width: 426px) and (min-width: 0px){
+                #default-image{
+                    width: 90%;
+                    height: auto;
+                }
+                .slidesToBeShown{
+                    width: 95%;
+                    height: auto;
+                }
+                .dashImages{
+                    width: 95%;
+                    height: auto;
+                }
+            }
+        </style>
+        <script src="scripts/ajax.js"></script>
+    </head>
+    <body onload="loadAJAX()">
+    <header>
+        <img id="dashtranslogo" src="assets/images/dashtranslogo.png"/>
+        <ul id="navbar">
+            <li class="navbar_links"><a class="navbar_link_attributes" href="index.html">Home</a></li>
+            <li class="navbar_links"><a class="navbar_link_attributes" href="about_us.html">About Us</a></li>
+            <li class="navbar_links"><a class="navbar_link_attributes" href="contact_us.html">Contact Us</a></li>
+            <li class="navbar_links"><a class="navbar_link_attributes" href="terms_and_conditions.html">Terms & Conditions</a></li>
+        </ul>
+    </header>
+    <div id="the-gallery"><img id="default-image" src="assets/images/galleryelement/dashimage1.jpg"></div>
+        <h1 id="news_heading">News</h1>
+    <div id="news">
+    <div id="default-news"><span id="default-news-text">You must enable javascript to use this feature.</span></div>
+    </div>
+        <h1 id="what_are_we_heading">What Are We?</h1>
+        <p id="what_are_we_story">D&S Dashtrans Ltd is a Somerset based, husband and wife team, offering van & man
+        light goods haulage, specialising in Hot Shot loads. Need your goods delivered fast? We collect from you and
+        drive your goods directly to their destination anywhere in the UK and Europe. 20 years experience in the haulage
+        business makes us a reliable, affordable choice for your delivery needs. We run an XLWB Crafter Panel van which
+        can transport up to 5 euro pallets, 4 standard pallets to a maximum weight of 1000kg.</p>
+    <footer>
+        D&S Dashtrans Ltd. 97 Greenway, Bishops Lydeard. Taunton. TA4 3DA <br>Registered company 8869183<br>
+        <br>
+        Designed, constructed and maintained by Luke Edward John Evans see his work here:
+        <li id="dev_portfolio_site_link"
+            style="
+        list-style-type: none;
+        text-decoration: none;"><a id="dev_portfolio_site_link_attribute" href="http://www.luke-evans.me">luke-evans.me</a></li>
+        (Currently under development)<!-----Delete when initial development of 'luke-evans.me' is done----->
+    </footer>
+    </body>
+
+</html>

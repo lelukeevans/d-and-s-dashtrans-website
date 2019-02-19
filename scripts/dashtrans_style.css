@@ -1,0 +1,131 @@
+/*Desktop*/
+*{
+    box-sizing:border-box;
+}
+#dashtranslogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3%;
+    height: auto;
+    width: 33.5%;
+    padding-top: 5px;
+}
+.navbar_links{
+    display: inline-block;
+    align-items: stretch;
+    padding: 4px;
+}
+.navbar_link_attributes{
+    text-decoration: none;
+    color: #0000FF;
+}
+.navbar_link_attributes:visited{
+    color: #0000FF;
+}
+.navbar_link_attributes:active{
+    color: #FF0000;
+}
+.navbar_link_attributes:hover{
+    color: #FF0000;
+}
+#navbar{
+    text-indent: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    padding: 6px 0px;
+}
+body{
+    background-color: #e6e6e6;
+    font-family: "Arial";
+    margin: 0px;
+}
+header{
+    background-color: #FFFFFF;
+    margin: 0px 0px 8px;
+    padding: 0px;
+}
+footer{
+    background-color: dimgray;
+    font-family: "Arial";
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+}
+#dev_portfolio_site_link_attribute{
+    text-decoration: none;
+    color: #FFFF00;
+}
+#dev_portfolio_site_link_attribute:hover{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: 30px;
+}
+p{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0px;
+}
+.news-title{
+    font-size: 28px;
+    font-family: "Arial";
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+}
+.news-heading{
+    font-size: 24px;
+    font-family: "Arial";
+    coloAQr: #000000;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0px;
+}
+@media only screen and (max-width: 901px) and (min-width: 427px){
+    #dashtranslogo{
+        width: 50%;
+        height: auto;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .news-heading{
+        font-size: 18px;
+    }
+    .news-title{
+        font-size: 20px;
+    }
+    body{
+        font-size: 16px;
+    }
+}
+/*Phone*/
+@media only screen and (max-width: 426px) and (min-width: 0px){
+    #dashtranslogo{
+        width: 72%;
+        height: auto;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .news-heading{
+        font-size: 18px;
+    }
+    .news-title{
+        font-size: 20px;
+    }
+    body{
+        font-size: 14px;
+    }
+}
